@@ -1,5 +1,5 @@
 
-class EmailParserexit!
+class EmailParser
 
   attr_accessor :emails, :name
 
