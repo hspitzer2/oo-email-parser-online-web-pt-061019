@@ -12,7 +12,7 @@ class EmailParser
     emails.split.collect do |name|
       name.split (', ')
     end
-    .flatten.unqui
+    .flatten.unqu
   end
 end
 # Build a class EmailParser that accepts a string of unformatted
