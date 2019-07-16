@@ -9,8 +9,8 @@ class EmailParser
     @name   = name
   end
 
-  def parse(emails)
-    emails = EmailParser.new(emails)
+  def parse
+    
   end
 end
 # Build a class EmailParser that accepts a string of unformatted
