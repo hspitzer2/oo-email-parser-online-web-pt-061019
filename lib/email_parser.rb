@@ -10,6 +10,8 @@ class EmailParser
   end
 
   def parse
+    emails.split.collect do |name|
+      name.split (', ')
     
   end
 end
