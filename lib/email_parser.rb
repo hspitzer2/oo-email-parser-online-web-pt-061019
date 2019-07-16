@@ -1,5 +1,5 @@
 
-class EmailParser
+class EmailParserexit!
 
   attr_accessor :emails, :name
 
@@ -10,7 +10,7 @@ class EmailParser
 
   def parse
     emails.split.collect do |name|
-      name.split (" ")
+      name.split (',')
     end
     .flatten.uniq
   end
