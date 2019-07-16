@@ -10,7 +10,7 @@ class EmailParser
 
   def parse
     emails.split.collect do |name|
-      name.split (',')
+      name.split (", ")
     end
     .flatten.uniq
   end
